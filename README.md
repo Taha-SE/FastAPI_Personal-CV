@@ -10,11 +10,11 @@ This Project is a API for saving your personal CV.
 ## Requirements
 To run the application, you need to have the following installed:
 
--Python==3.9
--fastapi==0.100.0
--pydantic==1.10.7
--SQLAlchemy==1.3.18
--starlette==0.31.0
+- Python==3.9
+- fastapi==0.100.0
+- pydantic==1.10.7
+- SQLAlchemy==1.3.18
+- starlette==0.31.0
 
 ## Installation
 1- Clone the repository:
