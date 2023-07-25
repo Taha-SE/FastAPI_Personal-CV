@@ -1,4 +1,4 @@
-﻿# FastAPI_Personal-CV
+﻿# Personal-CV with FastAPI
 This Project is a API for saving your personal CV.
 
 ## Table of Contents
