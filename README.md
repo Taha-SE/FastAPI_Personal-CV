@@ -80,7 +80,7 @@ python -m uvicorn main:app --reload
 - **DELETE**: Delete a hobby entry
 
 
-## Notes:
+## Notes
 The variable "end" is optional and can be set as null. In this case it will shown as "forlaufend"
 
 This is my first big project! So please feel free to comment and leave suggestions 
