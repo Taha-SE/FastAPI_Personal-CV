@@ -1,0 +1,22 @@
+image: docker:latest
+
+stages:
+  - build
+#  - deploy
+
+variables:
+  IMAGE_NAME: cv-api
+
+services: 
+  - docker:dind
+
+build:
+  stage: build
+  script:
+    - docker build -t $CI_REGISTRY/tahase1/cv-api-docker/$IMAGE_NAME .
+    - docker login $CI_REGISTRY -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD
+    - docker push $CI_REGISTRY/tahase1/cv-api-docker/$IMAGE_NAME
+# deploy:
+#   stage: deploy
+#   script:
+#     - docker-compose up -d

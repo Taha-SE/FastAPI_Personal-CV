@@ -13,7 +13,7 @@ app = FastAPI(
     description="Eine API für den Lebenslauf",
     version="1.0.0",
     redoc_url=None,
-    docs_url="/", 
+    docs_url="/",  
 )
 persondaten_router = APIRouter(default=JSONResponse)
 ausbildung_router = APIRouter(default=JSONResponse)
